@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Table Friends</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="images/ロゴ.png" alt="ロゴ">
+    <div class="menu">☰</div>
+  </header>
+
+  <main>
+    <section class="main-visual">
+      <img src="images/スプーン.png" alt="メインビジュアル">
+    </section>
+
+    <section class="intro">
+      <h2 style="text-align:center">サイトの紹介・コンセプト</h2>
+      <h3 style="text-align:center">あえて“使いにくい”人型カトラリーを架空の商品としてデザインし、
+        Webサイトをビジュアルでその魅力を伝えるプロジェクトです</h3>
+    </section>
+
+    <section class="characters">
+    <h2>キャラ紹介</h2>
+    <ul>
+      <li><img src="images/a.jpg" width="300" height="200" alt="" /></li>
+      <li><img src="images/a.jpg" width="300" height="200" alt="" /></li>
+      <li><img src="images/a.jpg" width="300" height="200" alt="" /></li>
+    </ul>
+    
+    <style>
+      ul {
+        display: flex;
+        justify-content: center;
+      }
+    
+      li {
+        list-style: none;
+      }
+    
+      li:nth-child(2) {
+        margin: 0 10px;
+      }
+    </style>
+    </section>
+    
+  
+    
+    <section class="products">
+      <h2>商品一覧</h2>
+      <div class="product-slider">
+        <ul>
+          <button class="prev">&lt;</button>
+          <img src="images/a.jpg" alt="商品1">
+          <img src="images/a.jpg" alt="商品2">
+          <button class="next">&gt;</button>
+        </ul>
+      </div>
+    </section>
+    
+    <style>
+      ul {
+        display: flex;
+        justify-content: center;
+      }
+    
+      li {
+        list-style: none;
+      }
+    
+      li:nth-child(2) {
+        margin: 0 10px;
+      }
+    </style>
+    </section>
+    
+
+    <section class="extras">
+      <div class="extras-left">
+        <h3 style="text-align:center">制作裏話・世界観紹介</h3>
+        <p style="text-align:center">制作過程やストーリーなどをここに紹介します。</p>
+      </div>
+      <div class="extras-right">
+        <h3>手描きスケッチ</h3>
+        <img src="images/a.jpg" alt="手描きスケッチ">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="logo">ロゴ</div>
+    <div class="contact">お問い合わせ</div>
+  </footer>
+</body>
+</html>
